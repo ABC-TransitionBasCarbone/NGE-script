@@ -1,7 +1,7 @@
-import rules from '@incubateur-ademe/nosgestesclimat/public/co2-model.FR-lang.fr.json' with { type: "json" }
 import Engine from 'publicodes'
 import { handleInputExcel, initOutputExcel } from './helpers/utils.js';
 import { getSituationForTransport } from './helpers/transport.js';
+import rules from "./dist/model.json" with { type: "json" };
 
 const { inputworksheet, numberOfRow } = await handleInputExcel();
 const { outputWorkbook, outputSheet } = await initOutputExcel();
@@ -14,7 +14,7 @@ for (let i = 3; i <= numberOfRow; i ++) {
         ...getSituationForTransport(currentRow.getCell(4).value, currentRow.getCell(3).value, currentRow.getCell(2).value)
     });
     
-    const valeur = engine.evaluate('transport . deux roues . empreinte');
+    const valeur = engine.evaluate('ngc . transport . deux roues . empreinte');
 
     outputSheet.addRow([currentRow.getCell(1).value, valeur.nodeValue]);
 }

@@ -1,0 +1,18 @@
+importer!:
+  depuis:
+    nom: '@incubateur-ademe/nosgestesclimat'
+    url: https://github.com/incubateur-ademe/nosgestesclimat
+  dans: "ngc"
+  les règles:
+    - transport . deux roues . empreinte
+    - transport . deux roues . empreinte au km
+    - transport . deux roues . entretien
+    - transport . deux roues . entretien pondéré :
+        formule: entretien * 2 # écrasement de la formule de NGC 
+    - transport . deux roues . km
+    - transport . deux roues . km annuels moyen
+    - transport . deux roues . nombre deux roues circulation
+    - transport . deux roues . pourcentage motards
+    - transport . deux roues . type
+    - transport . deux roues . usager
+

@@ -1,7 +1,7 @@
 export const getSituationForTransport = (type, km, usager) => {
     return {
-        "transport . deux roues . type": `"${type}"`,
-        "transport . deux roues . km": km,
-        "transport . deux roues . usager": usager
+        "ngc . transport . deux roues . type": `"${type}"`,
+        "ngc . transport . deux roues . km": km,
+        "ngc . transport . deux roues . usager": usager
     };
 };

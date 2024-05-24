@@ -8,7 +8,10 @@
   "dependencies": {
     "@incubateur-ademe/nosgestesclimat": "^2.4.1",
     "exceljs": "^4.4.0",
-    "publicodes": "^1.2.0"
+    "publicodes": "^1.2.0",
+    "@publicodes/tools": "^1.0.6",
+    "glob": "^8.0.3",
+    "yaml": "^2.2.2"
   },
   "license": "MIT"
 }
