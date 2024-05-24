@@ -1,0 +1,14 @@
+{
+  "name": "nge-script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "author": "ABC-transitionbascarbone",
+  "dependencies": {
+    "@incubateur-ademe/nosgestesclimat": "^2.4.1",
+    "exceljs": "^4.4.0",
+    "publicodes": "^1.2.0"
+  },
+  "license": "MIT"
+}

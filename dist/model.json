@@ -1,0 +1,12 @@
+{
+  "soda . alimentation . boisson . sucrées . facteur sodas": {
+    "formule": 0.51,
+    "unité": "kgCO2e/l",
+    "note": "Facteur d'émission issu d'[Agribalyse, Cola, sucré](https://agribalyse.ademe.fr/app/aliments/18037#Cola,_sucr%C3%A9,_avec_%C3%A9dulcorants), 0.51 kgCO2e/kg. On considère que la masse volumique est de 1kg/l.",
+    "description": "> ℹ️ Cette règle provient du modèle [`@incubateur-ademe/nosgestesclimat`](https://github.com/incubateur-ademe/nosgestesclimat)."
+  },
+  "soda": null,
+  "soda . alimentation . boisson . sucrées": null,
+  "soda . alimentation . boisson": null,
+  "soda . alimentation": null
+}

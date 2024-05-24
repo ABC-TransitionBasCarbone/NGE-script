@@ -1,0 +1,7 @@
+importer!:
+  depuis:
+    nom: '@incubateur-ademe/nosgestesclimat'
+    url: https://github.com/incubateur-ademe/nosgestesclimat
+  dans: soda
+  les règles:
+    - alimentation . boisson . sucrées . facteur sodas
